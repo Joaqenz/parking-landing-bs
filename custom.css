@@ -19,13 +19,6 @@ body{
     transform: translateX(-200%);
     transition: 1s;
 }
-
-.sideLink{
-    font-size: 18px;
-    line-height: 17px;
-    margin: 25px 0px;
-    text-decoration: none;    
-}
 .divider{
     height: 2px;
     width: 100%;
@@ -37,6 +30,8 @@ body{
 .socialcircle{
     min-width: 30px;
     min-height: 30px;
+    width: 30px;
+    height: 30px;
     max-width: 30px;
     max-height: 30px;
 }
