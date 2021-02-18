@@ -11,46 +11,34 @@ body{
     padding-right: 20px !important; 
 }
 .side-nav {
-    position: fixed;
-    display: block;
-    top: 0;
-    left: 0;
-    width: 300PX;
+    width: 80vw;
     background: #00CFFF;
-    padding:  25px 40px 37px 40px;
     min-height: 100vh;
-    box-shadow: 3px 2px 0px 124px rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 2;
+    box-shadow: 3px 2px 0px 20vw rgba(0, 0, 0, 0.5);
+    z-index: 5;
     transform: translateX(-200%);
     transition: 1s;
 }
-.sideTop{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.sideBot{
-    margin-top: -90px;
-    display: flex;
-    flex-direction: column;
-}
+
 .sideLink{
-    color: var(--var-white);
     font-size: 18px;
     line-height: 17px;
     margin: 25px 0px;
     text-decoration: none;    
 }
 .divider{
-    height: 0px;
-    left: 40px;
-    border: 1px solid #FFFFFF;
+    height: 2px;
+    width: 100%;
+    background-color: white;
 }
 .close:hover {
     cursor: pointer;
+}
+.socialcircle{
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
 }
 /*! CONTENT 1 */
 .container-content1{
