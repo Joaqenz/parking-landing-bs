@@ -12,30 +12,64 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="custom.css">
 
-    <title>Document</title>
+    <title>PARKIN - Moverse ahora es más fácil</title>
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="header container-fluid bg-white d-flex align-items-center justify-content-between">
             <!-- Header - Logo -->
-            <div class="col-3 p-0">
-                <img src="src/images/logoparking-desktop.png" alt=""> 
+            <div class="col-3 p-0 d-flex">
+                <img class="d-block d-md-none burger" src="src/images/icons/burger.svg" alt="">
+                <img class="d-block d-md-none ms-3" src="src/images/logoparking-mobile.png" alt=""> 
+                <img class="d-none d-md-block" src="src/images/logoparking-desktop.png" alt=""> 
             </div>
             <!-- Header - Menu -->
             <div class="header-menu-desktop p-0
                 d-flex d-sm-flex d-md-flex d-xl-flex
                 col-3 col-md-8 col-lg-7 col-xl-6
                 align-items-center 
-                justify-content-end justify-content-md-between"
+                justify-content-end "
                 >
-                <a class="text-dark d-none d-sm-none d-md-flex d-xl-flex" href="">Cómo funciona</a>
-                <a class="text-dark d-none d-sm-none d-md-flex d-xl-flex" href="">Estacionamientos</a>
-                <a class="text-dark d-none d-sm-none d-md-flex d-xl-flex" href="">Contacto</a>
+                <a class="text-dark text-center d-none d-sm-none d-md-flex d-xl-flex mr-4" href="">Cómo funciona</a>
+                <a class="text-dark text-center d-none d-sm-none d-md-flex d-xl-flex mr-4" href="">Estacionamientos</a>
+                <a class="text-dark text-center d-none d-sm-none d-md-flex d-xl-flex mr-4" href="">Contacto</a>
                 <a class="btn btn-outline-dark" href="">Ingresar código</a>
             </div>
         </div>
     </header>
+    <!-- Content - Main -->
+    <section class="sideMenu">
+        <div class="side-nav">
+            <div class="sideTop">
+                <img src="src/images/parkingwhite.png" alt="">
+                <img class="close" src="src/images/icons/cross.svg" alt="">
+            </div>
+            <div class="sideBot">
+                <a href="#" class="sideLink">Cómo funciona</a>
+                <div class="divider"></div>
+                <a href="#" class="sideLink">Estacionamientos</a>
+                <div class="divider"></div>
+                <a href="#" class="sideLink">Contacto</a>
+                <div class="divider"></div>
+                <a href="#" class="sideLink">Ingresar código</a>
+            </div>
+            <div class="footerSocialContainer">
+                <div class="social">
+                    <img src="/images/icons/instagram.svg" alt="">
+                </div>
+                <div class="social">
+                    <img src="/images/icons/twitter.svg" alt="">
+                </div>
+                <div class="social">
+                    <img src="/images/icons/whatsapp.svg" alt="">
+                </div>
+                <div class="social">
+                    <img src="/images/icons/facebook.svg" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
     <!-- Content - Main -->
     <div class="container-content1 container-fluid bg-white d-flex align-items-start text-white position-relative overflow-hidden">
         <div class="content1-menu">
@@ -50,36 +84,15 @@
     </div>
     <!-- Content - Steps -->
     <div class="container-content2 container-fluid py-5">
-        <!-- Steps - Step 0 x lu -->
-        <section class="row py-5 justify-content-evenly">
-            <!-- Prod - IMG -->
-            <div class="col-sm-8 col-md-5">
-                <div class="content2-step-imagecontainer d-flex align-items-center justify-content-center">
-                    <span class="box"></span>
-                    <img class="content2-step-image" src="src/images/mobile-step1.png" alt="" >
-                </div>
-            </div>
-            <!-- Prod - TEXT -->
-            <div class="col-md-5 step-text content2-step-menu flex-column justify-content-between">
-                <div class="content2-step-icon d-flex align-items-center justify-content-center mb-3">
-                    <img class="content2-step-icon-svg" src="src/images/icons/find.svg" alt="">
-                </div>
-                <h2 class="content2-step-h2 font-weight-bold text-dark mb-3">Paso 0 <br>estacionamientos<br>cerca tuyo.</h2>
-                <p class="content2-step-p">PARKIN es una app basada en el  sistema shared economy que conecta a conductores de vehículos con propietarios de aparcamientos.</p>
-                <a class="content2-step-l font-weight-bold text-decoration-none" href="">Acá va link →</a>
-            </div>
-        </section>
-
-
         <!-- Steps - Step 1 -->
-        <section class="d-flex flex-column flex-md-row align-items-center justify-content-evenly py-5">
+        <section class="row py-3 py-xl-5 justify-content-evenly">
             <!-- Prod - IMG -->
-            <div class="col-sm-8 col-md-5 content2-step-imagecontainer d-flex align-items-center justify-content-center p-0">
-                <span class="box"></span>
-                <img class="content2-step-image" src="src/images/mobile-step1.png" alt="" >
+            <div class="col-sm-8 col-md-5 col-xl-4 d-flex align-items-center justify-content-center pb-3 pb-md-0">
+                    <span class="box"></span>
+                    <img class="content2-step-image" src="src/images/mobile-step1_ok.png" alt="" >
             </div>
             <!-- Prod - TEXT -->
-            <div class="step-text col-md-5 content2-step-menu flex-column justify-content-between p-0">
+            <div class="col-md-5 col-xl-4 step-text content2-step-menu flex-column justify-content-center">
                 <div class="content2-step-icon d-flex align-items-center justify-content-center mb-3">
                     <img class="content2-step-icon-svg" src="src/images/icons/find.svg" alt="">
                 </div>
@@ -89,16 +102,16 @@
             </div>
         </section>
         <!-- Steps - Step 2 -->
-        <section class="d-flex flex-column flex-md-row-reverse align-items-center justify-content-evenly py-5">
+        <section class="row d-md-flex flex-row-reverse py-3 py-xl-5 justify-content-evenly">
             <!-- Prod - IMG -->
-            <div class="col-sm-8 col-md-5 content2-step-imagecontainer d-flex align-items-center justify-content-center p-0">
-                <span class="box"></span>
-                <img class="content2-step-image" src="src/images/mobile-step1.png" alt="" >
+            <div class="col-sm-8 col-md-5 col-xl-4 d-flex align-items-center justify-content-center pb-3 pb-md-0">
+                    <span class="box"></span>
+                    <img class="content2-step-image" src="src/images/mobile-step1_ok.png" alt="" >
             </div>
             <!-- Prod - TEXT -->
-            <div class="step-text col-md-5 content2-step-menu flex-column justify-content-between p-0">
+            <div class="col-md-5 col-xl-4 step-text content2-step-menu flex-column justify-content-center">
                 <div class="content2-step-icon d-flex align-items-center justify-content-center mb-3">
-                    <img class="content2-step-icon-svg" src="src/images/icons/find.svg" alt="">
+                    <img class="content2-step-icon-svg" src="src/images/icons/car.svg" alt="">
                 </div>
                 <h2 class="content2-step-h2 font-weight-bold text-dark mb-3">Encuentra<br>estacionamientos<br>cerca tuyo.</h2>
                 <p class="content2-step-p">PARKIN es una app basada en el  sistema shared economy que conecta a conductores de vehículos con propietarios de aparcamientos.</p>
@@ -106,22 +119,23 @@
             </div>
         </section>
         <!-- Steps - Step 3 -->
-        <section class="d-flex flex-column flex-md-row align-items-center justify-content-evenly py-5">
+        <section class="row py-3 py-xl-5 justify-content-evenly">
             <!-- Prod - IMG -->
-            <div class="col-sm-8 col-md-5 content2-step-imagecontainer d-flex align-items-center justify-content-center p-0">
-                <span class="box"></span>
-                <img class="content2-step-image" src="src/images/mobile-step1.png" alt="" >
+            <div class="col-sm-8 col-md-5 col-xl-4 d-flex align-items-center justify-content-center pb-3 pb-md-0">
+                    <span class="box"></span>
+                    <img class="content2-step-image" src="src/images/mobile-step1_ok.png" alt="" >
             </div>
             <!-- Prod - TEXT -->
-            <div class="step-text col-md-5 content2-step-menu flex-column justify-content-between p-0">
+            <div class="col-md-5 col-xl-4 step-text content2-step-menu flex-column justify-content-center">
                 <div class="content2-step-icon d-flex align-items-center justify-content-center mb-3">
-                    <img class="content2-step-icon-svg" src="src/images/icons/find.svg" alt="">
+                    <img class="content2-step-icon-svg" src="src/images/icons/home.svg" alt="">
                 </div>
                 <h2 class="content2-step-h2 font-weight-bold text-dark mb-3">Encuentra<br>estacionamientos<br>cerca tuyo.</h2>
                 <p class="content2-step-p">PARKIN es una app basada en el  sistema shared economy que conecta a conductores de vehículos con propietarios de aparcamientos.</p>
                 <a class="content2-step-l font-weight-bold text-decoration-none" href="">Acá va link →</a>
             </div>
         </section>
+
         <!-- Steps - Know more -->
         <div class="container-knowmore container-fluid  
             d-flex flex-column align-items-center justify-content-between 
@@ -234,6 +248,7 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="src/javascript/javascript.js"></script>
 </body>
 </html>
 
