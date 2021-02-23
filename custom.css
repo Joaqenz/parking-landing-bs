@@ -19,6 +19,12 @@ body{
     transform: translateX(-200%);
     transition: 1s;
 }
+
+/* LSC Agregaro 23/2/2021 */
+.side-nav.opened{
+    transform: translateX(0%);
+}
+
 .divider{
     height: 2px;
     width: 100%;
