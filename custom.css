@@ -34,6 +34,7 @@ body{
     height: 30px;
     max-width: 30px;
     max-height: 30px;
+    padding: 0px;
 }
 /*! CONTENT 1 */
 .container-content1{
@@ -200,6 +201,21 @@ button[aria-expanded="true"] i{
     background: -webkit-linear-gradient(180deg, #00CFFF,#00FF91);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.news-input{
+    height: 45px;
+    width: 250px;
+    padding-left: 10px;
+}
+.news-input:focus{
+    outline: none;
+
+}
+.news-submit{
+    width: 45px;
+    background: linear-gradient(230deg, #00CFFF,#00FF91);
+
 }
 
 
