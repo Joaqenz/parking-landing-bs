@@ -138,8 +138,7 @@ body{
     padding: 100px 0px;
     margin: 40px 0px;
     border-radius: 5px;
-    background-color: rgba(0,0,0,.7);
-    mix-blend-mode: soft-light;
+    background-color: rgba(77, 77, 77, 0.5);
     overflow: hidden;
 }
 .knowmore-image{
@@ -149,6 +148,10 @@ body{
     z-index: -1;
     width: 100%;
     height: 100%;
+}
+.btn-knowmore{
+    padding: 10px 30px;
+    margin-top: 20px;
 }
 .container-content3{
     padding: 100px 0px 100px 20px;
@@ -211,6 +214,9 @@ button[aria-expanded="true"] i{
 }
 .news-submit{
     background: linear-gradient(230deg, #00CFFF,#00FF91);
+}
+.stores-container{
+    max-width: 500px;
 }
 
 
