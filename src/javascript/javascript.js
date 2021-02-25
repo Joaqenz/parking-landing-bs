@@ -13,6 +13,7 @@
 var burger =  $(".burger") //document.querySelector('.burger');
 var cross =  $(".close") //document.querySelector('.close');
 var menu =  $(".side-nav") //document.querySelector('.side-nav');
+var navlinks = $(".side-link")
 
 function toggleMenu()
 {
@@ -21,6 +22,7 @@ function toggleMenu()
 
 burger.on("click", toggleMenu);
 cross.on("click", toggleMenu);
+navlinks.on("click", toggleMenu);
 
 // burger.on("click",() => {
 //     menu.addClass("opened");
