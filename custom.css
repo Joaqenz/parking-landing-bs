@@ -134,11 +134,11 @@ body{
 
 
 #work .work.odd  .box{
-    
+    transform: translate(-17%);
 }
 
 #work .work.even  .box{
-    
+    transform: translate(17%);
 }
 
 #work .work .box{
