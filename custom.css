@@ -367,6 +367,9 @@ button[aria-expanded="true"] i{
     .box{
         width: 350px;
     }
+    #work{
+        overflow: hidden;
+    }
     #work .work.odd  .box{
         transform: translate(-20%);
     }
@@ -374,7 +377,30 @@ button[aria-expanded="true"] i{
     #work .work.even  .box{
         transform: translate(20%);
     }
-
+    .s-instagram:hover{
+        background: linear-gradient(43.25deg, #8B43B1 14.56%, #AF387C 32.74%, #D93152 48.37%, #F32C2F 67.28%, #FEC960 84.36%);
+    }
+    .s-instagram:hover > i{
+        color: white !important;
+    }
+    .s-twitter:hover > i{
+        color: white !important;
+    }
+    .s-twitter:hover{
+        background: #00ABF0 !important;
+    }
+    .s-whatsapp:hover{
+        background: #1BD741!important;
+    }
+    .s-whatsapp:hover > i{
+        color: white !important;
+    }
+    .s-facebook:hover{
+        background: #1877F2!important;
+    }
+    .s-facebook:hover > i{
+        color: white !important;
+    }
 
 }
 
