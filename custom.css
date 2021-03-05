@@ -283,6 +283,48 @@ footer .navi-link:hover{
 #work .work .box{
     position:absolute
 }
+/* ! Partners */
+.fontsize-42{
+    font-size: 42px;
+}
+.fontsize-18{
+    font-size: 18px;
+}
+.rectangle{
+    width: 90px;
+    height: 90px;
+}
+.opacity-03{
+    opacity: 0.3;
+}
+.opacity-06{
+    opacity: 0.6;
+}
+.radius-16{
+    border-radius: 16px;
+}
+.radius-10{
+    border-radius: 10px;
+}
+.height-600{
+    height: 600px;
+}
+.bg-deg{
+    background: linear-gradient(225deg, #00CFFF 14.29%, #00FF91 85.71%);
+}
+.tarjeta{
+    height: 240px;
+    width: 350px;
+    border: 1px solid #EFF1F6;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.text-tarjeta{
+    font-size: 18px;
+}
+.bar-tarjeta{
+    height: 3px;
+}
 /* ? MEDIA Q */
 #
 /* X-Small devices (portrait phones, less than 576px) */
@@ -296,7 +338,7 @@ footer .navi-link:hover{
     }
         /*! CONTENT 1 */
     .container-content1{
-        padding: 100px 0px 0px 40px!important;
+        padding: 100px 4px 0px 40px!important;
     }
     .content1-h1{
         font-size: 40px;

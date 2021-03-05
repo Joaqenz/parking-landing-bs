@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+        
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="custom.css">
+
+    <title>PARKIN - Moverse ahora es más fácil</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="home">
+        <div class="header container-fluid bg-white d-flex align-items-center justify-content-between">
+            <!-- Header - Logo -->
+            <div class="col-3 p-0 d-flex">
+                <img class="d-flex d-md-none burger" src="src/images/icons/burger.svg" alt="">
+                <a data-scroll href="#home"><img class="d-flex d-md-none ms-3" src="src/images/logoparking-mobile.png" alt="">  </a>
+                <a data-scroll href="#home"><img class="d-none d-md-block" src="src/images/logoparking-desktop.png" alt=""> </a>
+            </div>
+            <!-- Header - Menu -->
+            <div class="header-menu-desktop p-0
+                d-flex d-sm-flex d-md-flex d-xl-flex
+                col-3 col-md-8 col-lg-7 col-xl-6
+                align-items-center 
+                justify-content-end "
+            >   
+                <a class="text-dark text-center d-none d-sm-none d-md-flex d-xl-flex mr-4" data-scroll href="#work">Cómo funciona</a>
+                <a class="text-dark text-center d-none d-sm-none d-md-flex d-xl-flex mr-4" data-scroll href="#parking">Estacionamientos</a>
+                <a class="text-dark text-center d-none d-sm-none d-md-flex d-xl-flex mr-4" data-scroll href="#contact">Contacto</a>
+                <a class="btn btn-outline-dark" data-scroll href="#code">Ingresar código</a>
+            </div>
+        </div>
+    </header>
+    <!-- Sidebar - Sidebar -->
+    <section class="side-nav container position-fixed d-flex top-0 p-3">
+        <div class="col d-flex flex-column justify-content-between pb-5">
+            <!-- Sidemenu - Header -->
+            <div class="row justify-content-between align-items-center">
+                <div class="col-auto p-0">
+                    <a class="side-link" data-scroll href="#home">
+                        <img src="src/images/parkingwhite.png" alt="">
+                    </a>
+                </div>
+                <div class="col-auto p-2">
+                    <img class="close" src="src/images/icons/cross.svg" alt="">
+                </div>
+            </div>
+            <!-- Sidemenu - Links -->
+            <div class="col-auto mb-5">
+                <div class="py-3">
+                    <a class="text-white side-link" data-scroll href="#work">Cómo funciona</a>
+                </div>
+                <div class="divider "></div>
+                <div class="py-3">
+                    <a class="text-white side-link" data-scroll href="#parking">Estacionamientos</a>
+                </div>
+                <div class="divider"></div>
+                <div class="py-3">
+                    <a class="text-white side-link" data-scroll href="#contact">Contacto</a>
+                </div>
+                <div class="divider "></div>
+                <div class="py-3">
+                    <a class="text-white side-link" data-scroll href="#code">Ingresar código</a>
+                </div>
+            </div>
+            <!-- Sidemenu - Social -->
+            <div class="d-flex justify-content-between">
+                <div class="col-auto p-0">
+                    <div class="socialcircle bg-white rounded-circle d-flex align-items-center justify-content-center">
+                        <img class="" src="src/images/icons/social/instagram.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-auto p-0">
+                    <div class="socialcircle bg-white rounded-circle d-flex align-items-center justify-content-center">
+                        <img class="" src="src/images/icons/social/facebook.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-auto p-0">
+                    <div class="socialcircle bg-white rounded-circle d-flex align-items-center justify-content-center">
+                        <img class="" src="src/images/icons/social/twitter.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-auto p-0">
+                    <div class="socialcircle bg-white rounded-circle d-flex align-items-center justify-content-center">
+                        <img class="" src="src/images/icons/social/whatsapp.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    <!-- Content - Main -->
+    <div class="height-600 bg-deg container-fluid align-items-center d-flex justify-content-evenly text-white">
+        <div class="col-6">
+            <h1 class="content1-h1 m-0 lh-sm font-weight-bolder">Sé parte de la<br>nueva manera<br>de estacionar</h1>
+            <p class="content1-p mt-3 font-weight-normal">Hacete socio de Parkin y promocioná tu<br>estacionamiento para alcanzar nuevos<br>clientes y aumentar tus ingresos.</p>
+            <div class="content1-stores container p-0 mt-3 m-0 d-flex justify-content-between">
+            </div>
+        </div>
+        <div class="col-auto d-flex flex-row">
+            <div class="">
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-03"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-03"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-03"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white opacity-03"></div>
+            </div>
+            <div class="">
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-06"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 d-flex align-items-center justify-content-center">
+                    <img height="80%" width="80%" src="/src/images/icons/only-logo.svg" alt="">
+                </div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-03"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white opacity-03"></div>
+            </div>
+            <div class="">
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-03"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-03"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-03"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white opacity-03"></div>
+            </div>
+            <div class="">
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-06"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-06"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white mb-3 me-3 opacity-06"></div>
+                <div class="col-12 bg-danger radius-16 rectangle bg-white position-relative overflow-hidden">
+                    <img class="position-absolute top-0 start-0" src="/src/images/boy.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content - Steps -->
+    <div class="container py-5">
+        <div class="col py-5 mt-5">
+            <h2 class="text-center fontsize-42 text-dark-grey font-weight-bold">¿Por qué ser socio de Parkin?</h2>
+            <p class="text-center fontsize-18 text-light-grey">Descubrí los beneficios de sumar tu<br>estacionamiento a la red de Parkin.</p>
+        </div>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col tarjeta d-flex flex-column justify-content-evenly align-items-center radius-10 bg-white position-relative overflow-hidden">
+                    <div class="col bar-tarjeta bg-deg position-absolute top-0"></div>
+                    <img src="/src/images/icons/Star.svg" alt="">
+                    <div class="text">
+                        <h4 class="text-tarjeta font-weight-bold text-center text-dark-grey">Conecta con miles de usuarios</h4>
+                        <p class="text-tarjeta text-center text-light-grey">Lorem ipsum dolor sit amet consectetuer adipising elit in.</p>
+                    </div>
+                </div>
+                <div class="col tarjeta d-flex flex-column justify-content-evenly align-items-center radius-10 bg-white mx-4">
+                    <img src="/src//images/icons/Star.svg" alt="">
+                    <div class="text">
+                        <h4 class="text-tarjeta font-weight-bold text-center text-dark-grey">Conecta con miles de usuarios</h4>
+                        <p class="text-tarjeta text-center text-light-grey">Lorem ipsum dolor sit amet consectetuer adipising elit in.</p>
+                    </div>
+                </div>
+                <div class="col tarjeta d-flex flex-column justify-content-evenly align-items-center radius-10 bg-white">
+                    <img src="/src//images/icons/Star.svg" alt="">
+                    <div class="text">
+                        <h4 class="text-tarjeta font-weight-bold text-center text-dark-grey">Conecta con miles de usuarios</h4>
+                        <p class="text-tarjeta text-center text-light-grey">Lorem ipsum dolor sit amet consectetuer adipising elit in.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="">
+        <div id="parking" class="container-fluid py-5 mb-5 px-md-5">
+            <div class="part-container position-relative">
+                <!-- Parte 1 - Contacto -->
+                <div class="part part-1 py-5 rounded-3 form-background">
+                    <div class="text-white row align-items-center justify-content-center">
+                        <h2 class="text-center text-shadow">¿Tenés alguna duda?</h2>
+                        <p class="text-center text-shadow mb-5">Ponete en contacto con nosotros, estamos para ayudarte.</p>
+                        <div class="text-center">
+                            <div class="btn btn-outline-light px-5 py-2" slick-contactar >Contactar</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Parte 2 - formulario-->
+                <div class="part part-2 py-5 rounded-3 form-background" >
+                    <div class="text-white row align-items-center justify-content-center">
+                        <div class="col-md-6">
+                            <h2 class="text-center text-shadow">Formulario de contacto</h2>
+                            <p class="text-center text-shadow mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis quidem laborum alias!</p>
+                            <div class="text-center">
+                                <form action="" class="row justify-content-center slick-contact-form">
+                                    <div class="col-11 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control border-light bg-transparent text-white" placeholder="Nombre" name="name" id="name">
+                                        </div>
+                                    </div>
+                                    <div class="col-11 col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control border-light bg-transparent text-white" placeholder="Email" name="email" id="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-11 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control border-light bg-transparent text-white" placeholder="Teléfono" name="phone" id="phone">
+                                        </div>
+                                    </div>
+                                    <div class="col-11 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control border-light bg-transparent text-white" placeholder="Asunto" name="subject" id="subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-11 col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="message" class="w-100 form-control border-light bg-transparent text-white" placeholder="Mensaje" id="message" cols="30" rows="5"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-11 col-md-12">
+                                        <button type="submit" class="w-100 btn btn-outline-light px-5 py-2">Enviar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Parte 3 - success -->
+                <div class="part part-3 py-5 rounded-3 form-background" >
+                    <div class="text-white row align-items-center justify-content-center">
+                        <svg class="mb-3" width="106" height="106" viewBox="0 0 106 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M104.937 34.9405L94.4557 24.4592V2.73463C94.4557 1.60117 93.5367 0.682373 92.4034 0.682373H62.1692C61.0359 0.682373 60.1169 1.60117 60.1169 2.73463C60.1169 3.86809 61.0359 4.78688 62.1692 4.78688H90.3512V46.6235L52.9078 84.0671L15.6491 46.8084V4.78688H43.6989C44.8321 4.78688 45.7511 3.86809 45.7511 2.73463C45.7511 1.60117 44.8321 0.682373 43.6989 0.682373H13.5968C12.4636 0.682373 11.5446 1.60117 11.5446 2.73463V24.4592L1.06351 34.9405C0.67871 35.3253 0.462402 35.8473 0.462402 36.3916V95.4965C0.462402 101.155 5.06561 105.758 10.7237 105.758H95.2766C100.935 105.758 105.538 101.155 105.538 95.4965V36.3916C105.538 35.8473 105.322 35.3253 104.937 34.9405ZM101.433 95.4965C101.433 96.4457 101.217 97.3454 100.832 98.1493L72.7311 70.0486L101.433 41.3464V95.4965ZM94.4557 30.264L100.583 36.3916L94.4557 42.519V30.264ZM5.16863 98.1493C4.78322 97.3454 4.56691 96.4459 4.56691 95.4965V41.5309L33.1768 70.1409L5.16863 98.1493ZM11.5446 42.7037L5.3246 36.484L11.5446 30.264V42.7037ZM10.7237 101.653C9.77451 101.653 8.8748 101.437 8.07114 101.052L36.0793 73.0432L51.4566 88.4206C51.8416 88.8054 52.3635 89.0217 52.9078 89.0217C53.452 89.0217 53.9739 88.8054 54.3589 88.4206L69.8286 72.9511L97.9293 101.052C97.1254 101.437 96.2259 101.654 95.2766 101.654H10.7237V101.653Z" fill="white"/>
+                            <path d="M53 4.78615C53.5398 4.78615 54.0692 4.56656 54.451 4.18484C54.8325 3.80312 55.0523 3.27364 55.0523 2.7339C55.0523 2.19415 54.8327 1.66467 54.451 1.28295C54.0692 0.901232 53.5398 0.681641 53 0.681641C52.4582 0.681641 51.9308 0.901232 51.5491 1.28295C51.1676 1.66467 50.9478 2.19415 50.9478 2.7339C50.9478 3.27364 51.1673 3.80312 51.5491 4.18484C51.9308 4.56656 52.4582 4.78615 53 4.78615Z" fill="white"/>
+                            <path d="M33.5857 25.5503C30.8014 30.6093 30.0689 36.4416 31.5238 41.9726C32.7839 46.7638 35.5043 50.897 39.3917 53.9256C43.1344 56.8416 47.7965 58.5195 52.5188 58.6501C52.5382 58.6507 52.5573 58.6509 52.5764 58.6509C53.6836 58.6509 54.596 57.769 54.6268 56.6553C54.658 55.5224 53.7651 54.5784 52.632 54.5472C44.5911 54.3249 37.5437 48.7247 35.493 40.9288C33.0236 31.5392 38.3414 21.8753 47.5995 18.928C52.2963 17.4328 57.2822 17.8732 61.6388 20.1676C65.9867 22.4573 69.1654 26.3053 70.593 31.0052C71.5023 34.4394 71.2074 37.6231 69.6091 41.6422C69.1533 42.788 67.7383 45.4532 64.4465 45.4532C63.9258 45.4532 63.399 45.2119 62.9629 44.7737C62.378 44.186 62.0451 43.356 62.0494 42.4867V25.5195C62.0494 24.386 61.1304 23.4672 59.9972 23.4672C58.8637 23.4672 57.9449 24.386 57.9449 25.5195V26.1731C56.3429 24.8377 54.3531 24.0753 52.1237 24.0753C46.9405 24.0753 41.5792 28.5687 41.5792 36.0882C41.5792 39.4024 42.6296 42.5064 44.5367 44.8283C46.4699 47.1825 49.1568 48.5324 51.9078 48.5324C54.4865 48.5324 56.8092 47.3938 58.5776 45.4955C58.9335 46.302 59.4307 47.0429 60.0534 47.6686C61.2655 48.8867 62.8256 49.5575 64.4465 49.5575C69.1888 49.5575 72.1929 46.2522 73.423 43.1588C75.3521 38.3079 75.7 34.2233 74.5501 29.9148C74.5444 29.8934 74.5382 29.8721 74.5319 29.851C72.7891 24.0759 68.8894 19.3471 63.5513 16.5359C58.2144 13.7252 52.1071 13.1856 46.3544 15.0169C40.904 16.752 36.3694 20.4927 33.5857 25.5503ZM51.908 44.4279C48.476 44.4279 45.6839 40.6867 45.6839 36.088C45.6839 31.1377 48.9583 28.1796 52.1239 28.1796C55.5345 28.1796 57.9166 31.4062 57.9166 36.0258C57.9164 40.6588 55.221 44.4279 51.908 44.4279Z" fill="white"/>
+                        </svg>                        
+                        <h2 class="text-center text-shadow">Gracias por tu mensaje</h2>
+                        <p class="text-center text-shadow">Nos pondremos en contacto con vos a la brevedad.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content - Footer -->
+    <footer class="container-footer container-fluid flex-column flex-md-row d-flex flex-row justify-content-between bg-dark text-white pt-5 py-md-5">
+        <div class="col-12 col-md-3 footerHigh">
+            <img src="src/images/name-parkin.svg" alt="">
+            <p class="pt-3">PARKIN es una app basada en el sistema shared economy que conecta a conductores de vehículos con propietarios de aparcamientos.</p>
+            <div class="row pl-3 d-flex">
+                <!-- Instagram -->
+                <a href="" target="_blank" class="socialcircle s-instagram mr-3 mb-2 bg-white rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
+                    <i class="fab fa-instagram text-light-grey fs-4"></i>
+                </a>
+                <!-- Twitter -->
+                <a href="" target="_blank" class="socialcircle s-twitter mr-3 mb-2 bg-white rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
+                    <i class="fab fa-twitter text-light-grey fs-4"></i>
+                </a>
+                <!-- WhatsApp -->
+                <a href="" target="_blank" class="socialcircle s-whatsapp mr-3 mb-2 bg-white rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
+                    <i class="fab fa-whatsapp text-light-grey fs-4 text"></i>
+                </a>
+                <!-- Facebook -->
+                <a href="" target="_blank" class="socialcircle s-facebook mr-3 mb-2 bg-white rounded-circle d-flex align-items-center justify-content-center text-decoration-none">
+                    <i class="fab fa-facebook-f text-light-grey fs-4"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-12 col-md-3 pt-4 pt-md-0">
+            <h4 class="footer-subtitle font-weight-bold">Contacto</h4>
+            <p class="mb-3">(011) 3458-5588</p>
+            <p class="mb-3">hola@parkin.com</p>
+            <p class="mb-3">Buenos Aires, Argentina</p>
+        </div>
+        <div class="col-12 col-md-3 pt-4 pt-md-0 ">
+            <h4 class="footer-subtitle font-weight-bold">Más información</h4>
+            <a class="text-decoration-none mb-3 navi-link d-block" href="">Empresas</a>
+            <a class="text-decoration-none mb-3 navi-link d-block" href="terms.html">Términos y condiciones</a>
+            <a class="text-decoration-none mb-3 navi-link d-block" href="policy.html">Políticas de privacidad</a>
+        </div>
+        <div class="col-12 col-md-3 pt-4 pb-4 pt-md-0 pb-md-0 ">
+            <h4 class="footer-subtitle font-weight-bold">Newsletter</h4>
+            <div class="footerMail">
+                <div class="input-group mb-3 ">
+                    <input type="text" class="form-control" placeholder="Ingresá tu correo" aria-label="Ingresá tu correo" aria-describedby="button-addon2">
+                    <button class="btn news-submit" type="button" id="button-addon2"><img src="src/images/icons/plain.svg" alt=""></button>
+                </div>       
+            </div>
+            <p>Suscribite a nuestro newsletter para recibir las últimas noticias de Parkin.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    
+
+    <script src="src/javascript/javascript.js"></script>
+    <script src="src/javascript/contacto.js"></script>
+</body>
+</html>
+
