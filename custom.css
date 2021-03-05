@@ -36,6 +36,7 @@ body{
 .socialcircle{
     width: 40px;
     height: 40px;
+    transition: all .5s;
 }
 /*! CONTENT 1 */
 .container-content1{
@@ -207,6 +208,16 @@ button[aria-expanded="true"] i{
     padding: 100px 0px;
     height: auto;
 }
+
+footer .navi-link{
+    color: white;
+    transition: all .4s;
+}
+
+footer .navi-link:hover{
+    color: #00FF91;
+}
+
 .footer-subtitle{
     background: -webkit-linear-gradient(180deg, #00CFFF,#00FF91);
     -webkit-background-clip: text;
