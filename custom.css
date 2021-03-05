@@ -469,3 +469,10 @@ footer .navi-link:hover{
 .slick-contact-form .form-control.filled{
     border-width: 2px;
 }
+
+
+/* LSC 4/3/2020 */
+/* Aire entre pasos en index.html - Aplica para desktop y mobile */
+.work{
+    margin-top: 50px;
+}
