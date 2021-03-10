@@ -344,8 +344,6 @@ footer .navi-link:hover{
     background: linear-gradient(225deg, #00CFFF 14.29%, #00FF91 85.71%);
 }
 .tarjeta{
-    height: 240px;
-    width: 350px;
     border: 1px solid #EFF1F6;
     box-sizing: border-box;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
@@ -437,8 +435,8 @@ footer .navi-link:hover{
         transform: translate(8%);
     }
     .rectangle{
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
     }
 
     .style-circle > span::before{
